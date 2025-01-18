@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="周政的个人简历，包含工作经验、教育背景和技能。">
+    <meta name="keywords" content="周政, 个人简历, 后端开发, 前端开发, HTML, CSS, JavaScript">
+    <title>周政个人简历</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+        }
+
+        /* 头部区域 */
+        header {
+            background: linear-gradient(135deg, #4CAF50, #45a049);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+
+        address {
+            font-style: normal;
+            margin-top: 10px;
+            font-size: 1.1em;
+        }
+
+        address a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        address a:hover {
+            color: #d1e8ff;
+        }
+
+        /* 导航栏 */
+        nav {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #45a049;
+        }
+
+        /* 主要内容区域 */
+        section {
+            padding: 30px;
+            margin: 20px auto;
+            max-width: 800px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        article {
+            margin-bottom: 25px;
+        }
+
+        article h3 {
+            margin: 0;
+            color: #333;
+            font-size: 1.4em;
+        }
+
+        article p {
+            margin: 5px 0;
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* 脚注部分 */
+        footer {
+            background: linear-gradient(135deg, #333, #222);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #45a049;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            section {
+                padding: 20px;
+                margin: 10px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            address {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- 头部区域，包含姓名和联系方式 -->
+<header>
+    <h1>周政的个人简历</h1>
+    <address>
+        联系方式: Email: <a href="mailto:758285009@qq.com">758285009@qq.com</a> | 电话: <a href="tel:17785849082">17785849082</a>
+    </address>
+</header>
+
+<!-- 导航栏，用于页面内部跳转 -->
+<nav>
+    <ul>
+        <li><a href="#about">关于我</a></li>
+        <li><a href="#experience">工作经验</a></li>
+        <li><a href="#education">教育背景</a></li>
+        <li><a href="#skills">技能</a></li>
+    </ul>
+</nav>
+
+<!-- 关于我部分 -->
+<section id="about">
+    <h2>关于我</h2>
+    <p>硕士研究生毕业，具有扎实的学术背景和丰富地实践经验，热爱编程与技术创新。本科期间，我通过了大学英语六级考试（笔试成绩：460分），并考取了C1机动车驾驶证和计算机二级MS Office证书。在大一至大二期间，我担任校团委宣传部干事和网络文明促进会副会长，参与校内活动的组织和宣传工作，熟练使用 Adobe Premiere 和 Photoshop，撰写新闻通讯稿，并于2017年获得“贵州大学优秀联络员”称号，积累了丰富的团队合作经验。</p>
+    <p>在研究生阶段，我多次获得学业奖学金，并以第一作者身份在北大核心期刊《种子》发表一篇研究论文。期间，我自学了 Java、Spring Boot、Spring Data JPA、Spring Cloud、MySQL、RESTful API、TCP/IP 协议、Maven、Git、Linux、Python、C 语言、Matlab、数据结构与算法以及设计模式（如 MVC、单例、工厂、观察者等），并将其应用于项目实践中。我还创建了 GitHub 主页，记录项目实践和学习心得，并尝试使用人工智能技术解决实际问题。</p>
+    <p>作为一名全栈开发者，我专注于构建高效、可扩展的 Web 应用，致力于通过技术创新提升用户体验。熟悉敏捷开发流程，能够快速适应新技术并应用于实际项目中。</p>
+</section>
+
+<!-- 工作经验部分 -->
+<section id="experience">
+    <h2>工作经验</h2>
+    <article>
+        <h3>后端开发实习生</h3>
+        <p><em>二次方网络有限公司 | 2024年1月 - 2025年6月</em></p>
+        <h4>项目名称：基于 Spring Cloud 的微服务商城系统</h4>
+        <p><strong>项目描述：</strong>开发了一个基于 Spring Cloud 的微服务商城系统，旨在为用户提供高效、可靠的在线购物体验。该系统采用微服务架构，主要包括以下核心组件：</p>
+        <ul>
+            <li>
+                <strong>Eureka Server</strong>：作为服务注册与发现中心，负责管理各个微服务的注册和发现，确保服务之间的动态调用和负载均衡。
+            </li>
+            <li>
+                <strong>Product Service</strong>：负责管理产品信息，包括产品的增删改查、分类管理、库存管理等功能。通过 Redis 缓存热点数据，将产品查询响应时间从 200ms 降低至 50ms。
+            </li>
+            <li>
+                <strong>Order Service</strong>：处理订单相关操作，包括订单创建、查询、更新和删除。使用消息队列（RabbitMQ）实现异步订单处理，提升系统吞吐量。
+            </li>
+            <li>
+                <strong>User Service</strong>：负责用户注册、登录、信息管理等功能。通过 JWT 实现用户身份验证和权限管理，确保用户数据的安全性。
+            </li>
+            <li>
+                <strong>API Gateway</strong>：作为系统的入口，负责请求路由、负载均衡、权限验证等功能。通过 Zuul 实现统一的 API 管理，简化了客户端与后端服务的交互。
+            </li>
+            <li>
+                <strong>数据库</strong>：使用 MySQL 作为主要数据存储，采用分库分表策略以提高系统的可扩展性和性能。通过 Hibernate 实现 ORM，简化了数据库操作。
+            </li>
+        </ul>
+        <p><strong>技术栈：</strong>Spring Cloud、Spring Boot、Spring Data JPA、Spring Security、Hibernate、MyBatis、MySQL、Redis、RabbitMQ、Git、Maven、Docker</p>
+        <p><strong>项目成果：</strong></p>
+        <ul>
+            <li>成功上线微服务商城系统，支持日均 10 万+用户访问，系统稳定性达到 99.9%。</li>
+            <li>通过 Redis 缓存和消息队列优化，系统响应时间降低 60%，订单处理效率提升 50%。</li>
+            <li>实现了高可用、可扩展的微服务架构，为后续功能扩展奠定了坚实基础。</li>
+        </ul>
+    </article>
+</section>
+
+<!-- 教育背景部分 -->
+<section id="education">
+    <h2>教育背景</h2>
+    <p><strong>贵州大学</strong></p>
+    <p>农业资源与环境专业 | 硕士研究生 2020-2024年</p>
+    <ul>
+        <li>
+            获得一次校级二等学业奖学金、一次校级三等学业奖学金以及两次课题组三等学业奖学金，表彰在学术研究和课程学习中的优异表现。
+        </li>
+        <li>
+            在导师的悉心指导下，以第一作者身份在北大核心期刊《种子》发表一篇研究论文，题为《辣椒CaHMA基因家族的全基因组鉴定和表达分析》。
+        </li>
+        <li>
+            参与院级科研项目《贵州遵义辣椒CaRAN1基因对镉胁迫响应的转录组学与功能基因组学研究》，使用Python语言的numpy库、pandas库和Matlab库进行数据清洗、分析和可视化，撰写研究报告并撰写研究论文，论文盲审评分为92分，评阅结果为优秀。
+        </li>
+        <li>
+            使用 MATLAB 进行算法实现，辅助完成科研任务，提升数据处理效率。
+        </li>
+    </ul>
+    <p>农业资源与环境专业 | 本科 2016-2020年</p>
+    <ul>
+        <li>
+            大学英语六级考试笔试成绩为460分
+        </li>
+        <li>
+            获得了C1机动车驾驶证
+        </li>
+        <li>
+            获得了计算机二级MS Office证书
+        </li>
+    </ul>
+</section>
+
+<!-- 技能部分 -->
+<section id="skills">
+    <h2>技能</h2>
+    <ul>
+        <li>
+            <strong>编程语言</strong>
+            <ul>
+                <li>Java：熟悉Java编程语言，能够进行基本的开发和调试。</li>
+                <li>Python：熟练使用 Python 进行脚本编写和数据处理。</li>
+                <li>C语言：掌握C语言的基本语法，能够开发简单的应用程序。</li>
+                <li>JavaScript：熟悉JavaScript语言，能够开发动态网页和交互功能。</li>
+            </ul>
+        </li>
+        <li>
+            <strong>前端开发</strong>
+            <ul>
+                <li>HTML/CSS：熟练使用HTML和CSS进行网页布局和样式设计。</li>
+                <li>Webpack：了解Webpack打包工具，能够配置基本的前端项目构建流程。</li>
+            </ul>
+        </li>
+        <li>
+            <strong>后端开发</strong>
+            <ul>
+                <li>Spring Boot：熟悉 Spring Boot 框架，能够搭建简单的 Web 应用。</li>
+                <li>Spring Data JPA：了解 Spring Data JPA 的基本用法，能够进行简单的数据库操作。</li>
+                <li>Spring Cloud：对 Spring Cloud 微服务架构有初步了解，能够参与相关项目的开发。</li>
+            </ul>
+        </li>
+        <li>
+            <strong>数据库</strong>
+            <ul>
+                <li>MySQL：掌握 MySQL 数据库的基本操作，能够进行数据管理和查询。</li>
+                <li>RESTful API：了解 RESTful API设计原则，能够编写简单的API接口。</li>
+            </ul>
+        </li>
+        <li>
+            <strong>工具与框架</strong>
+            <ul>
+                <li>Maven：熟悉Maven项目管理工具，能够进行项目构建和依赖管理。</li>
+                <li>Git：掌握Git版本控制工具的基本操作，能够进行代码的版本管理。</li>
+                <li>Linux：熟悉Linux操作系统的基本命令行操作。</li>
+            </ul>
+        </li>
+        <li>
+            <strong>网络与协议</strong>
+            <ul>
+                <li>TCP/IP 协议：对 TCP/IP 协议有基本了解，能够进行简单的网络通信编程。</li>
+            </ul>
+        </li>
+        <li>
+            <strong>数据结构与算法</strong>
+            <ul>
+                <li>熟悉常见的数据结构和算法，能够进行基本的算法实现。</li>
+            </ul>
+        </li>
+        <li>
+            <strong>多媒体与设计</strong>
+            <ul>
+                <li>Adobe Premiere：了解 Adobe Premiere 的基本操作，能够进行简单的视频剪辑。</li>
+                <li>Adobe Photoshop：熟悉 Adobe Photoshop 的基本功能，能够进行简单的图片处理。</li>
+            </ul>
+        </li>
+        <li>
+            <strong>科研与工程工具</strong>
+            <ul>
+                <li>MATLAB：了解 MATLAB 的基本操作，能够进行数据分析和算法实现。</li>
+            </ul>
+        </li>
+    </ul>
+</section>
+
+<!-- 脚注部分，包含版权信息 -->
+<footer>
+    <p>&copy; 2025 周政的个人简历网页</p>
+    <p>GitHub: <a href="https://github.com/EXinshate">EXinshate</a></p>
+</footer>
+</body>
+</html>
